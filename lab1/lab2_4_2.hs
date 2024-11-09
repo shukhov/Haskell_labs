@@ -1,5 +1,6 @@
---Ð·Ð°Ð´Ð°Ñ‡Ð° 2.4 (2)
+--çàäà÷à 2.4 (2)
 f2 :: Double -> Double -> Double
-f2 x y = 5 * (x - y) / (x + y) 
+f2 x y|x + y == 0 = error ""
+      |otherwise = 5 * (x - y) / (x + y) 
 
 test = f2 2 3 == (-1)

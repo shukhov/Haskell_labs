@@ -1,4 +1,4 @@
---Ð·Ð°Ð´Ð°Ñ‡Ð° 2.4 (4)
+--çàäà÷à 2.4 (4)
 f4 :: Double -> Double -> Double
 f4 x y  | x==y = error ""
         | otherwise = (x + 10 * y) / (x - y)

@@ -1,4 +1,4 @@
---Ð·Ð°Ð´Ð°Ñ‡Ð° 2.4 (1)
+--çàäà÷à 2.4 (1)
 f1 :: Double -> Double -> Double
 f1 x y = if 2 * (x + y) == 0
     then error " "
