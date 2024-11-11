@@ -1,4 +1,4 @@
---Ð·Ð°Ð´Ð°Ñ‡Ð° 3.2
+--çàäà÷à 3.2
 f:: Integer->Integer
 f n | n > 202 = n - 3
     | otherwise = f (f (n+4))
