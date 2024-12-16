@@ -1,4 +1,4 @@
-a:: Integer->Integer->Integer->Integer
+-- задача 3.4 ред
 a n x y | n == 0 = x+1
         | n == 1 && y == 0 = x
         | n == 2 && y == 0 = 0

@@ -1,6 +1,4 @@
---задача 1.7
-f :: Double -> Double
-f n | n <= 1 = 1
-    | otherwise = sqrt (1 + n * f (n - 1))
+--задача 1.7 ред
+f = sqrt (1 + 2005 * sqrt (1 + 2004 * sqrt (1 + 2003*2001)))
 
-test = f 2005
+test = abs (f - 2004) < 0.00000001
