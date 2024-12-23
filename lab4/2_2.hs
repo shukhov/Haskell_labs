@@ -1,4 +1,9 @@
 --задача 2.2
+
+{-
+ 2*. Напишите функцию, меняющую местами "крайние" элементы списка.
+-}
+
 f lst | null lst = []
       | otherwise     = reverse (head lst : reverse (last lst :
                                 init (tail lst)))

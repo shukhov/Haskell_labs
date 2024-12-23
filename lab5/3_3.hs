@@ -1,4 +1,9 @@
 -- задача 3.3
+
+{-
+    3*. Напишите  функцию,  увеличивающую  каждый  элемент числового
+ списка в k раз.
+-}
 func lst k | null lst = lst
            | otherwise = head lst*k : func (tail lst) k
 

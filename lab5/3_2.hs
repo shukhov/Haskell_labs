@@ -1,4 +1,9 @@
 -- задача 3.2
+
+{-
+ 2*. Напишите функцию, моделирующую операцию (++).
+-}
+
 func lst1 lst2
     | null lst1 = lst2
     | otherwise = head lst1 : func (tail lst1) lst2

@@ -1,4 +1,10 @@
---задача 2.4 (3)
+--задача 2.4 (3) ред.
+
+{-
+             x-y  
+(3) f(x,y)= ?????;
+            x-27y 
+-}
 f3 :: Double -> Double -> Double
 f3 x y|x == y = error ""
       |otherwise = (x - y) / (x - 2 * y)

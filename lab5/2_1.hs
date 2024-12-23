@@ -1,4 +1,9 @@
 -- задача 2.1
+
+{-
+    1*. Напишите функцию, возвращающую элемент по номеру его  распо-
+ ложения в списке.
+-}
 func lst n
     | null lst = error "Empty list"
     | n >= length lst = error "Index out of bounds"
